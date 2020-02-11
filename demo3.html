@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/33c08b8109.js" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+
+		body{
+			//background-image:url(hall2.jpg);
+
+
+		}
+		.wrapper{
+			position: absolute;
+			width:30%;
+			top:15%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			
+                
+
+		}
+		.search-box{
+			width:100%;
+			position:relative;
+           //border:2px solid rgba(99, 99, 99, 0.64);
+
+
+		}
+		.searchterm{
+			float:left;
+			width: 70%;
+			border:3px solid #00B4CC;
+			padding:10px;
+			font-size:17px;
+			outline: none;
+			transition: 1s all;
+		}
+		.searchterm:focus{
+			color:black;
+			border:3px solid #00B4CC;
+		}
+		.searchbtn{
+        	position: absolute;
+        	width: 50px;
+        	height:45px;
+        	border:1px solid #00B4CC;
+        	background-color: #00B4CC;
+        	text-align: center;
+        	color:#fff;
+        	cursor: pointer;
+        	padding: 10px;
+        }
+        
+     
+
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+ 	<div class="search_box">
+ 		<input type="text"  class="searchterm" placeholder="search places">
+ 		<button type="submit" class="searchbtn">
+ 			<i class="fa fa-search"></i>
+ 		</button>
+ 		 		
+
+ 	</div>
+ </div>
+</body>
+</html>
