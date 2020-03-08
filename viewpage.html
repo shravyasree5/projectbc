@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>viewpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	body{
+  		margin:0px;
+  	    font-family: Times New Roman;
+  	}
+  	.menu{
+           width:100%;
+		   height:15%;
+	       text-align:left;
+	       margin-top: 1%;
+  	}
+.leftmenu{
+  		width:60%;
+		height:70%;
+		margin-left:20px;
+		margin-right: 0%;
+		text-align:left;	
+		float:left;
+
+  	}
+.rightmenu{
+  		width:36%;
+		height:70%;
+		float:left;
+		margin-right:1%;
+		margin-left: 1%;
+  	}
+.rightmenu img{
+        width: 30px;
+        height: 30px;
+}
+
+.gallery{
+	width: 100%;
+	margin-top: 1%;
+	background-color: gray;
+}
+.foot{
+	width: 100%;
+	margin-top: 1%;
+}
+  	
+#card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+}
+h5{
+    	padding-left: 3%;
+    	text-align: center;
+   }
+table{
+    	text-align: center;
+    }
+
+.carousel-item img{
+            width: 100%;
+            height: 100%;
+
+            position:relative;               
+        }
+.carousel-indicators li {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 1px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #0009;
+            background-color: rgba(0,0,0,0);
+            border: 1px solid #fff;
+            border-radius: 10px;
+          //background-color: #FFFFFF;
+            margin-bottom: 15px;           
+        }
+.carousel-indicators li.active{
+
+           background-color: #FFFFFF;
+
+}
+@media only screen and (max-width: 1000px) {
+  /* For tabs: */
+
+  [class*="col1"] {
+    width: 60%;
+    margin-right: 0%;
+    margin-top:0.5px;
+  }
+  [class*="col2"] {
+    width: 35%;
+    /*margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;*/
+  }
+
+   [class*="col3"] {
+    width: 100%;
+    margin-top: 1%;
+  }
+  [class*="col4"] {
+    width: 100%;
+    margin-top: 0px;
+  }
+ }
+
+ @media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+
+  [class*="col1"] {
+    width: 100%;
+    margin-right: 3%;
+    margin-top:0.5px;
+  }
+  [class*="col2"] {
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+  }
+
+   [class*="col3"] {
+    width: 100%;
+    margin-top: 1%;
+  }
+  [class*="col4"] {
+    width: 100%;
+    margin-top: 0px;
+  }
+ }
+ 
+
+  </style>
+
+</head>
+<body>
+
+<div class="container-fluid">
+  
+    <div class="col-lg-12 menu " id="card">
+        <h1>NAME</h1>
+        <h1>ADDRESS</h1>
+    </div>
+      <div class="row">
+      <div class="col1 leftmenu" id="card">
+            <div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner" style="z-index:1 !important">
+
+        <div class="carousel-item active">
+            <img src="hall1.jfif" alt="First Slide">
+
+            <div class="carousel-caption d-none d-md-block">
+                <div class="wrapper">
+    
+ </div>
+
+           
+                <h3>first</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="hall2.jpg" alt="Second Slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>second</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="hall3.jpg" alt="Third Slide">
+            <div class="carousel-caption d-none d-md-block">
+                                <h3>third</h3>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="hall4.jpg" alt="Third Slide">
+            <div class="carousel-caption d-none d-md-block">
+                                <h3>fourth</h3>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="hall5.jfif" alt="Third Slide">
+            <div class="carousel-caption d-none d-md-block">
+                                <h3>fifth</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+      </div>
+      <div class="col2 rightmenu" id="card">
+            
+         <img src="https://img.icons8.com/color/48/000000/vegetarian-food-symbol.png" id="food">vegetaraian:2000<br>
+         
+         <img src="https://img.icons8.com/color/48/000000/non-vegetarian-food-symbol.png" id="foods">non-vegetarian: 2000<hr>
+         
+
+         <h5>MAX GUESTS</h5>
+        <table class="table table-borderless">
+	    <thead>
+	      <tr>
+	        <th>Hall</th>
+	        <th></th>
+	        <th>Lawn</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>4500</td>
+	        <td class="line"></td>
+	        <td>3000</td>
+	      </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h5>SEATING</h5>
+        <table class="table table-borderless">
+	    <thead>
+	      <tr>
+	        <th>Hall</th>
+	        <th></th>
+	        <th>Lawn</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>1000</td>
+	        <td class="line"></td>
+	        <td>1000</td>
+	      </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h5>CHECK AVAILABILITY</h5>
+          <form>
+            <label for="birthday"></label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <button type="button">CHECK</button>
+          </form>
+      </div>
+    </div>
+        <div class="col3 gallery " id="card">
+        	<h3>gallery here</h3>
+  </div>
+   <div class="col4 foot " id="card">
+        	<h3>ABOUT</h3>
+        	<h3>DESCRIPTION</h3>
+  </div>
+</div>
+  
+</body>
+</html>
