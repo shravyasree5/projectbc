@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title></title>
+	<style type="text/css">
+		body{
+			font-family: Times New Roman;	
+            
+		}
+		#image{
+			background-image: url("hall3.jpg") ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.9;
+
+		}
+		.container-fluid{
+			border:1px solid silver;
+			max-width: 800px;
+			margin-top: 100px;
+			box-shadow: 0px 2px 8px 0px; 
+			border-radius: 5px;
+			background-color: white;
+
+			
+
+		}
+		img{
+			width: 120px;
+			height: 120px;
+			float: right;
+			padding-top: 5px;
+
+		}
+		.col1{
+			text-align: center;
+			padding-top: 10px;
+            padding-left:30px;
+            width: 70%;
+            float: left;
+		}
+		.col2{
+		 	padding-right: 100px;
+			width: 30%;
+
+		}
+		
+		.col4{
+			clear: both;
+			margin-left: 320px;
+			margin-bottom: 10px;
+		}
+		table {
+			margin-left: 320px;
+			margin-top: 10px;
+		}
+		
+			@media screen and (max-width: 768px) {
+			.container-fluid{
+				width: 450px;
+
+			}
+			.col1{
+				width: 70%;
+				//float: left;
+				padding-left: 0px;
+			}
+			.col2{
+				width: 30%;
+				float: right;
+				padding-right: 10px;
+			}
+			
+			table{
+				margin-left: 100px;
+			}
+			.col4{
+				margin-left: 150px;
+			}			
+
+			}
+			
+	</style>
+</head>
+<body id="image">
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col1">
+			<h2 style="color: blue;">SRINIVASA FUNCTION HALL</h2>
+			<h5 style="color: gray; font-style: italic;"> opposite xyz shopping mall,banjarahills, hyderabad</h5>
+		</div>
+
+		<div class="col2">
+			<img src="bookedimage.jpg">
+		</div>
+	</div>
+
+		<div class="row"style="border-top:1px solid silver; ">
+		<div class="col3" style="clear: both; font-size: 20px;" >
+			
+			<table>
+				<th style="color: red; font-size: 25px;">Registration Id:</th>
+                  
+    	    		<tr>
+
+    	    			<td>Name</td>
+    	    			<td>:</td>
+    	    			<td>xyz</td>
+
+    	    		</tr>
+
+    	    		<tr>
+    	    			<td>date of booking</td>
+    	    			<td>:</td>
+    	    			<td>12/05/2020</td>
+
+    	    		</tr>
+    	    		<tr>
+    	    			<td>Time</td>
+    	    			<td>:</td>
+    	    			<td>12:00am to 6:00pm </td>
+
+    	    		</tr>
+    	    		<tr>
+    	    			<td>Catering</td>
+    	    			<td>:</td>
+    	    			<td>yes</td>
+
+    	    		</tr>
+    	    		<tr>
+    	    			<td>Payment</td>
+    	    			<td>:</td>
+    	    			<td>yes</td>
+
+    	    		</tr>
+    	    	</table><br>               
+    	    </div>
+    	    </div>
+    	    <div class="row" >
+    	    <div class="col4" 	>
+    	    	<button  type="button" class="btn btn-success" >print</button>
+    	    	<button type="button" class="btn btn-success" >download</button>
+    	    </div>
+
+	</div>
+</div>
+</body>
+</html>
